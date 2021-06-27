@@ -100,5 +100,32 @@ public class Usagi {
     public String slap() {
         return this.makeRequest("slap").get("url").asText();
     }
+    
+      /**
+     * Well, I don't see why you receive it in JSON because it only has the image's URL so it's easier to return only the URL.
+     * If you are using a bot in Discord you can either return this to an Embed.imageURL or return an ordinary message.
+     * {@return String}
+     */
+    public String bite() {
+        return this.makeRequest("bite").get("url").asText();
+    }
+    
+      /**
+     * Well, I don't see why you receive it in JSON because it only has the image's URL so it's easier to return only the URL.
+     * If you are using a bot in Discord you can either return this to an Embed.imageURL or return an ordinary message.
+     * {@return String}
+     */
+    public String bowdown() {
+        return this.makeRequest("bowdown").get("url").asText();
+    }
+    
+      /**
+     * Well, I don't see why you receive it in JSON because it only has the image's URL so it's easier to return only the URL.
+     * If you are using a bot in Discord you can either return this to an Embed.imageURL or return an ordinary message.
+     * {@return String}
+     */
+    public String wasted() {
+        return this.makeRequest("wasted").get("url").asText();
+    }
 
 }
