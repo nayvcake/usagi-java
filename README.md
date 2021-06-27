@@ -23,5 +23,8 @@ Functions that are available in the library are:
 - Poke
 - Slap
 - Tickle
+- Bite
+- Bowdown
+- Wasted
 
 A library for **[`API`](https://github.com/RabbitHouseCorp/usagi-api)** and written in Java.
