@@ -2,7 +2,7 @@
 
 ### Gradle
 ```groovy
-implementation group: 'com.github.navycake', name: 'usagi-api', version: '1cf2b9c'
+implementation group: 'com.github.navycake', name: 'usagi-api', version: '8206294'
 ```
 
 ### Maven
@@ -10,7 +10,7 @@ implementation group: 'com.github.navycake', name: 'usagi-api', version: '1cf2b9
  <dependency>
 	 <groupId>com.github.NavyCake</groupId>
 	 <artifactId>usagi-api</artifactId>
-	 <version>1cf2b9c</version>
+	 <version>8206294</version>
 </dependency>
 ```
 ### 🔌 Functions
